@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+
+User-agent: *
+Disallow: /wedding-details
+Disallow: /wedding-details.php
+Disallow: /wedding-details.html
+Disallow: /wedding-details.html
+Disallow: /proposal-story
+Disallow: /proposal-story.php
+Disallow: /proposal-story.html
+Disallow: /proposal-story.htm

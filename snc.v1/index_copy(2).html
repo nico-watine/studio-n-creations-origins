@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>web design | Studio N Creations - under construction</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	
+</head>
+<body>
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+<!-- HEADER & MAIN LOGO -->
+        <div class="header-parallax" data-0="background-position:0 0px;" data-500="background-position:0 -350;">
+		</div>
+        
+        
+<!-- END HEADER & MAIN LOGO --> 
+ 
+<!-- ----------------------------------------------------------------------------------------------------- -->
+      
+<!-- BEGIN WRAPPER -->
+<div id="wrapper">
+<!-- BEGIN WRAPPER -->
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+<!-- BEGIN BODY CONTENT -->
+<div class="billboard">
+</div>
+<div class="empty-space">
+</div>
+
+
+<!-- END BODY CONTENT -->
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+                    
+<!-- MENU -->
+<div id="menuband"> 
+<div id="category-center">  
+    <div class="categorybox">    
+    	<div id="logo">
+        <img src="img/logo(157w).gif">
+        </div>
+        <div id="what-we-do">
+        <img src="img/what-we-do.gif" />
+        </div>
+        <div id="portfolio">                                
+        <img src="img/portfolio.gif" />                                
+        </div>                                
+        <div id="who-i-am">                                
+        <img src="img/who-i-am.gif" />                                
+        </div>                                
+        <div id="testimonials">                                
+        <img src="img/testimonials.gif" />                                
+        </div>                                
+        <div id="contact">                               
+        <img src="img/contact.gif" />
+        </div>                                
+    </div> 
+</div>                                  
+</div>
+<!-- END MENU -->
+<div class="logo-parallax" data-0="background-position:0 80px;" data-400="background-position:0 -400;">
+</div>
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+<!-- END WRAPPER -->
+</div>
+<!-- END WRAPPER -->
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+</body>
+
+<!-- End Document // BEGIN SCRIPTS
+================================================== -->
+<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+  $.backstretch("img/bg_bricks.jpg");
+</script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script>
+    $(window).load(function(){
+      $("#category-center").sticky({ topSpacing: 0 });
+    });
+</script>
+<script type="text/javascript" src="js/skrollr.js"></script>
+<script type="text/javascript">
+	skrollr.init({
+		forceHeight: false,
+		smoothScrolling: true,
+	});
+</script>
+<script>
+var screenSize=document.documentElement.clientWidth;
+if(screenSize<1220) 
+{
+  window.location="880w.html"
+}
+</script>
+<script>
+var screenSize=document.documentElement.clientWidth;
+if(screenSize<569)
+{
+  window.location="iphone.html"
+}
+</script>
+<script src="js/util.js"></script>
+<script src="js/jRespond.js"></script>
+<script>
+		
+		// call jRespond and add breakpoints
+		var jRes = jRespond([
+			{
+				label: 'tablet',
+				enter: 767,
+				exit: 1221
+			},{
+				label: 'desktop',
+				enter: 1022,
+				exit: 10000
+			}
+		]);
+		
+		// usage
+		var outputStr = document.getElementById('output');
+		var screenSize=document.documentElement.clientWidth;
+
+		jRes.addFunc({
+			breakpoint: 'desktop',
+			enter: function() {
+				console.log('>>> run this for the DESKTOP breakpoint <<<');
+				window.location="#.html";
+			},
+			exit: function() {
+				console.log('<<< destroy this when exiting the DESKTOP breakpoint >>>');
+			}
+		});
+		
+		jRes.addFunc({
+			breakpoint: ['tablet'],
+			enter: function() {
+				console.log('>>> run this for the LAPTOP/TABLET breakpoint <<<');
+			},
+			exit: function() {
+				console.log('<<< destroy this when exiting the LAPTOP/TABLET breakpoint >>>');
+			}
+		});
+		
+		jRes.addFunc({
+			breakpoint: 'tablet',
+			enter: function() {
+				window.location="880w.html";
+			}
+		});
+		
+		jRes.addFunc({
+			breakpoint: 'handheld',
+			enter: function() {
+				console.log('>>> run this for the HANDHELD breakpoint <<<');
+				window.location="iphone.html";
+			},
+			exit: function() {
+				console.log('<<< destroy this when exiting the HANDHELD breakpoint >>>');
+			}
+		});
+		
+		jRes.addFunc({
+			breakpoint: '*',
+			enter: function() {
+				console.log('>>> run this when entering EVERY breakpoint <<<');
+			},
+			exit: function() {
+				console.log('<<< run this when exiting EVERY breakpoint >>>');
+			}
+		});
+	</script>
+</body>
+</html>

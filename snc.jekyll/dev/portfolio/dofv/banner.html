@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
+<head itemscope itemtype="http://schema.org/WebSite">
+	<meta charset="utf-8">
+	<title>Responsive Nav</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/core.css">
+	<link rel="stylesheet" href="/css/pages.css">
+	<link rel="stylesheet" href="/css/dev.css"/>
+</head>
+
+<body>
+
+<div class="row" id="nav-bar">
+	<div class="vertical-wrapper">
+		<a itemprop="url" href="{{ site.index_url }}/" class="title" id="index-link"><span itemprop="name" id="large">Studio N Creations</span><span itemprop="name" id="mini">SNC</span></a>
+	</div>
+	<nav class="nav-collapse">
+		<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+			<li itemprop="name"><a itemprop="url" href="/">Home</a></li>
+			<li itemprop="name"><a itemprop="url" href="/what-we-do/">Services</a></li>
+			<li itemprop="name"><a itemprop="url" href="/portfolio/">Portfolio</a></li>
+			<li itemprop="name"><a itemprop="url" href="/about-us">About Us</a></li>
+			<li itemprop="name"><a itemprop="url" href="http://blog.studioncreations.com">Blog</a></li>
+			<li itemprop="name"><a itemprop="url" href="/contact/">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+
+<section itemscope itemtype="http://schema.org/CreativeWork" class="project-banner" id="deck-on-fountainview" style="margin-top: 100px;">
+	<div itemprop="mainEntity" class="banner-content">
+		<div class="row side-padding">
+			<div class="project-summary">
+				<div class="logo-wrapper">
+					<h1 itemprop="name">The Deck On Fountainview</h1>
+				</div>
+				<div class="prose">
+					<p><span itemprop="sourceOrganization">The Deck On Fountainview</span> bar &amp; grill gets a mobile-optimized <span>site redesign</span></p>
+					<a itemprop="url" href="http://thedeckonfountainview.com" class="button header-font floating" id="website-link" target="_blank">THEDECKONFOUNTAINVIEW.COM</a>
+				</div>
+			</div>
+			<div class="project-image">
+				<img itemprop="image" src="/img/portfolio/deck-on-fountainview/mobile-mockup.png" alt="The Deck On Fountainview Mobile Mockup" id="dofv-mobile" style="visibility: visible;" class="animated">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<div class="mask"></div>
+<script src="/dev/nav/js/responsive_nav-min.js"></script>
+
+</body>
+</html>

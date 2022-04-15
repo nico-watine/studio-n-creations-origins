@@ -1,0 +1,35 @@
+@import "../settings/_settings.scss";
+
+nav {
+	@include outer-container;
+}
+
+ul#main-nav {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+
+	li {
+		float: left;
+		margin-top: 1em;
+
+		a {
+			color: #fff;
+			padding: 0 1em;
+			text-decoration: none;
+			text-shadow: $one-r $two-r $two-r #000;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			@include media($large) {
+				padding: 0 .6em;
+			}
+		}
+
+		a.active {
+			text-decoration: underline;
+		}
+	}
+}

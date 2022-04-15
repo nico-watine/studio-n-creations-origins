@@ -1,0 +1,46 @@
+[22-Apr-2016 17:12:13 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[22-Apr-2016 17:25:38 America/Chicago] PHP Warning:  include(/usr/local/apache/htdocs/php/autoVer.php): failed to open stream: Permission denied in /home3/njwatine/public_html/blog/index.php on line 2
+[22-Apr-2016 17:25:38 America/Chicago] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/php/autoVer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/njwatine/public_html/blog/index.php on line 2
+[22-Apr-2016 17:25:38 America/Chicago] PHP Fatal error:  Call to undefined function autoVer() in /home3/njwatine/public_html/blog/index.php on line 20
+[25-Apr-2016 16:32:25 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[16-May-2016 14:58:14 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[18-May-2016 09:43:16 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:43:22 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:43:24 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:07 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:15 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:50 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:50 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:52 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[18-May-2016 09:44:52 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/blog/js/responsive_nav-min.js in /home3/njwatine/public_html/blog/php/autoVer.php on line 4
+[28-Jun-2016 06:17:33 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[25-Aug-2016 17:37:09 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[09-Sep-2016 13:18:39 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[24-Sep-2016 21:25:03 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[25-Sep-2016 12:32:47 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[28-Sep-2016 11:40:51 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[30-Sep-2016 12:35:55 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[10-Oct-2016 03:54:15 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[25-Oct-2016 15:18:03 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[17-Nov-2016 12:02:13 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[24-Nov-2016 18:20:14 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[17-Dec-2016 18:49:46 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[20-Dec-2016 13:23:52 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[21-Dec-2016 06:06:56 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[22-Dec-2016 19:37:34 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[26-Dec-2016 20:57:53 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[02-Jan-2017 12:02:22 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[03-Jan-2017 13:05:41 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[04-Feb-2017 04:01:15 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[06-Feb-2017 17:38:56 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[14-Feb-2017 13:52:55 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[17-Mar-2017 12:46:15 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[19-Mar-2017 22:21:18 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[21-Mar-2017 08:41:51 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[23-Apr-2017 00:27:04 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[30-Apr-2017 21:24:51 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[16-May-2017 23:27:31 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[27-May-2017 01:00:59 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[08-Jun-2017 21:53:52 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[28-Jun-2017 17:05:26 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4
+[26-Jul-2017 18:52:07 America/Chicago] PHP Warning:  filemtime(): stat failed for /home3/njwatine/public_html/css/blog.css in /home3/njwatine/public_html/php/autoVer.php on line 4

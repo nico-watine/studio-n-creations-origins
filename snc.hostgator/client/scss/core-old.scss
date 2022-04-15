@@ -1,0 +1,22 @@
+// NORMALIZE.CSS
+@import "style/settings/_normalize.scss";
+
+// BOURBON-NEAT FILES
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+
+// BASIC COMPONENTS
+@import "style/components/_typography.scss";
+@import "style/components/_resets.scss";
+@import "style/components/_buttons.scss";
+@import "style/components/_utility-classes.scss";
+@import "style/components/_forms.scss";
+
+
+// SITE-WIDE PAGE BLOCKS
+@import "style/blocks/_body.scss";
+@import "style/blocks/_nav-overlay.scss";
+@import "style/blocks/_main.scss";
+@import "style/blocks/_footer.scss";
+

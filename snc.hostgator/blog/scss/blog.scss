@@ -1,0 +1,41 @@
+// NORMALIZE.CSS
+// TAKEN CARE OF BY CDN.STUDIONCREATIONS.COM/CSS/CORE.CSS
+
+// BOURBON-NEAT FILES
+// THESE MATCH THE 'NEAT' STYLES OF CORE.CSS
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+
+
+// BASIC COMPONENTS
+// STANDARD BASIC COMPONENTS ARE USED FROM CORE.CSS // THESE ARE INCLUDED FOR CUSTOM OVERWRITE STYLES WITHIN BLOG.CSS
+@import "style/components/_resets.scss";
+@import "style/components/_typography.scss";
+@import "style/components/_utility-classes.scss";
+
+// PAGE BLOCKS
+@import "style/blocks/_body.scss";
+@import "style/blocks/_header.scss";
+// @import "style/blocks/_nav.scss";
+@import "style/blocks/nav/_nav.scss";
+@import "style/blocks/_main.scss";
+@import "style/blocks/_footer.scss";
+@import "style/blocks/_side-bar.scss"; 
+@import "style/blocks/_static-share-buttons.scss";
+
+// INDIVIDUAL PAGE STYLES
+@import "style/pages/_blog-index.scss";
+
+// INDIVIDUAL POST STYLES
+@import "style/posts/_posts.scss";
+
+// USED TO BE IMPORTED BACK WHEN BLOG-ROLL HAD A FEATURE BANNER ACROSS THE TOP (DON'T DELETE - MAY END UP USING A FEATURE-BANNER AGAIN SOON)
+// @import "style/blocks/_shared-styles.scss";
+// @import "style/blocks/_feature-slider.scss";
+
+// LASTLY IMPORT DEVELOPMENT STYLES, TO BE REMOVED UPON PRODUCTION
+// @import "settings/_development-styles.scss";
+
+// 18,619
+// 18,240

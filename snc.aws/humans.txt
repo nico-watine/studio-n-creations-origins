@@ -1,0 +1,52 @@
+Hello savvy Internet wanderer!
+
+:: This blog is a Studio N Creation ::
+www.studioncreations.com
+facebook.com/studioncreations (for those nice social people)
+
+
+Coded with <3 for a better web by Nico Watine.
+
+================
+
+Get in touch :: nico.w@tine.rocks
+Need a website? :: contact@studioncreations.com
+
+================
+
+/* SITE COLOPHON */
+Framework: ZURB Foundation 5
+Standards: HTML5, CSS3
+Components: jQuery, Normalize.css, Modernizr.js, html5shiv.js
+Software: Sublime Text, JekyllRB
+
+
+www.foundation.zurb.com
+humanstxt.org
+
+================
+
+
+                    ++++++++          
+                 ++++++++++++         
+                +++++++++++++         
+                   .+++++++++         
+                    +++++++++         
+                    +++++++++         
+        ,+++++      +++++++++         
+     +++++++++++    +++++++++         
+    +++++++++++++   +++++++++         
+     ++++++++++++++ +++++++++         
+     ++++++++++++++++++++++++         
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+    ++++++++++++++++++++++++++        
+    +++++++++  +++++++++++++++        
+   +++++++++     +++++++++++++,       
+   ++++++         +++++++++++++       
+     +              +++++++++.        
+                     ++++++           
+                      .+~
+
+   WWW . STUDIO N CREATIONS . COM

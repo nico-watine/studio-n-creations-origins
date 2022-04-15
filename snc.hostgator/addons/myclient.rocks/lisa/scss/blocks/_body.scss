@@ -1,0 +1,14 @@
+@import "../settings/_settings.scss";
+
+body {
+	background: url('/img/bg/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #A5C8E6;
+	background-repeat: no-repat;
+}
+
+main {
+	@include outer-container;
+	padding: 0 1em;
+}

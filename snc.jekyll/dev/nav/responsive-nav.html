@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js" lang="en-US">
+<head itemscope itemtype="http://schema.org/WebSite">
+	<meta charset="utf-8">
+	<title>Responsive Nav</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/dev.css"/>
+</head>
+
+<body id="responsive-nav">
+
+<div class="row" id="nav-bar">
+	<div class="vertical-wrapper">
+		<a itemprop="url" href="{{ site.index_url }}/" class="title" id="index-link"><span itemprop="name" id="large">Studio N Creations</span><span itemprop="name" id="mini">SNC</span></a>
+	</div>
+	<nav class="nav-collapse">
+		<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+			<li itemprop="name"><a itemprop="url" href="{{ site.index_url }}/">Home</a></li>
+			<li itemprop="name" {{ page.services-tab }}><a itemprop="url" href="{{ site.index_url }}/what-we-do/">Services</a></li>
+			<li itemprop="name" {{ page.portfolio-tab }}><a itemprop="url" href="{{ site.index_url }}/portfolio/">Portfolio</a></li>
+			<li itemprop="name" {{ page.about-tab }}><a itemprop="url" href="{{ site.index_url }}/about-us">About Us</a></li>
+			<li itemprop="name"><a itemprop="url" href="http://blog.studioncreations.com">Blog</a></li>
+			<li itemprop="name" {{ page.contact-tab }}><a itemprop="url" href="{{ site.index_url }}/contact/">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+<section id="summary" class="outer-container">
+	<h1 class="text-center title">'responsive-nav'</h1>
+	<h2>This 'responsive-nav' block is both the 'fixed-top-bar' and also the 'mobile-drop-down'</h2>
+	<h3 class="body">responsive-nav.js 1.0.39 <br>
+	https://github.com/viljamis/responsive-nav.js <br>
+	http://responsive-nav.com <br>
+	The mobile nav toggle utilizes a customized sprite :: <br>
+	<img style="width: 30px; height: 100px; border: 1px solid blue;" src="/dev/nav/img/toggle-sprite@2x.png" alt=""></h3>
+	<h3 class="body">Correctly configured _config.yml included with UNCSS options. <br>
+	UNCSS is locted in the _plugins folder. <br>
+	Don't forget UNCSS only functions correctly with HTML, hence this dev pages is HTML, and not PHP with auto-versioning</h3>
+</section>
+
+<hr>
+
+<section id="screenshots" class="outer-container">
+	<figure>
+		<figcaption>Default Nav</figcaption>
+		<img src="/dev/nav/img/screens/default-nav.png" alt="">
+	</figure>
+	<figure>
+		<figcaption>Default Nav @920px</figcaption>
+		<img src="/dev/nav/img/screens/default@920.png" alt="">
+	</figure>
+	<figure>
+		<figcaption>Default Nav @800px</figcaption>
+		<img src="/dev/nav/img/screens/default@800.png" alt="">
+	</figure>
+	<div class="row mobile">
+		<figure>
+			<figcaption>Mobile Nav @750px</figcaption>
+			<img src="/dev/nav/img/screens/mobile@750.png" alt="">
+		</figure>
+		<figure>
+			<figcaption>Mobile Nav @750px OPEN</figcaption>
+			<img src="/dev/nav/img/screens/mobile@750-open.png" alt="">
+		</figure>
+	</div>
+	<div class="row mobile">
+		<figure>
+			<figcaption>Mobile Nav @500px</figcaption>
+			<img src="/dev/nav/img/screens/mobile@500.png" alt="">
+		</figure>
+		<figure>
+			<figcaption>Mobile Nav @500px OPEN</figcaption>
+			<img src="/dev/nav/img/screens/mobile@500-open.png" alt="">
+		</figure>
+	</div>
+</section>
+
+
+<div class="mask"></div>
+<script src="/dev/nav/js/responsive_nav-min.js"></script>
+
+
+</body>
+</html>

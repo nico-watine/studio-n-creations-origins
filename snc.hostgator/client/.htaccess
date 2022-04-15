@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule .*\.()$ - [F,NC]
+
+RewriteCond %{HTTP_HOST} ^client\.studioncreations\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.client\.studioncreations\.com$
+RewriteRule ^/?$ "http\:\/\/studioncreations\.com\/" [R=301,L]
+

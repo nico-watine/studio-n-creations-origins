@@ -1,0 +1,6 @@
+@import "neat-helpers";
+
+$large: new-breakpoint(max-width 62.500em 12); //1000px
+$medium: new-breakpoint(max-width 46.875em 10); //750px
+$small-plus: new-breakpoint(max-width 40em 8); //640px
+$small: new-breakpoint(max-width 32.813em 8); //525px

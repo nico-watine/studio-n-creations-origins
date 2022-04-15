@@ -1,0 +1,9 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^tine\.email$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tine\.email$
+RewriteRule ^/?$ "http\:\/\/nicowatine\.me\/" [R=301,L]
+
+RewriteRule .*\.()$ - [F,NC]
+

@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*BODY STYLES*/
+body, html
+{
+	height: 100%;
+	width: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'ubuntulight';	
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* END BODY STYLES */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* STYLING & POSITIONING COMPONENTS */
+#wrapper
+{
+	position:relative;
+	width: 1225px;
+	margin: 0 auto;	
+}
+
+/* END STYLING & POSITIONING COMPONENTS */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* HEADER & MAIN LOGO */
+.header-parallax 
+{
+	background: url(../img/Snowboard-Cropped.png);
+	background-size: cover !important;
+	padding: 0;
+	top: 0;
+	left:0;
+	position: relative;
+	overflow: hidden;
+	height: 230px;
+	width: 100%;
+	display: table;
+	color: #010101;
+	margin: 0;
+	border-bottom: 4px solid black;
+}
+
+.behind-logo_menu
+{
+	position:absolute;
+	top: 235;
+	left: 0;
+	width: 100%;
+	height: 145px;
+}
+
+.logo-parallax
+{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	height: 450px;
+	width: 330px;
+	background: url(../img/logo-web.gif) center no-repeat;
+	background-size: 330px 340px;
+	padding: 0;
+	overflow: hidden;
+	color: #010101;
+	border: 1px solid red;
+}
+/*END HEADER & MAIN LOGO */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* MENU BAR */
+.menuband
+{
+	width: 1220px;
+	height: 200px;
+	position:relative;
+	top: 0;
+	left:0;
+}
+
+.categorybox
+{
+	position:relative;
+	left: 330px;
+	top: 0px;
+	border: 1px solid black;
+	height: 145px;
+	width: 882px;
+	background-color: white;
+}
+
+#what-we-do
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#portfolio
+{
+	position: absolute;
+	top: 0px;
+	left:176px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#who-i-am
+{
+	position: absolute;
+	top: 0px;
+	left:352px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#testimonials
+{
+	position: absolute;
+	top: 0px;
+	left:528px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#contact
+{
+	position: absolute;
+	top: 0px;
+	left:704px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+	border-right: 2px solid black;
+}
+/* END MENU BAR */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* BEGIN BODY */
+
+.slogan-top
+{
+	width: 100%;
+	height: 145px;
+	position: absolute;
+	top: 210px;
+	background-color: white;
+}
+
+.slogan-under
+{
+	width: 100%;
+	height: 145px;
+	position: absolute;
+	top: 200px;
+	background-image:url(../img/iphone_header-landscape.gif);
+}
+
+/* END BODY */
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/* TESTING COMPONENTS */
+
+.empty-space
+{
+	width: 100%;
+	height: 700PX;
+	position: absolute;
+	top: 345px;
+	border: 3px solid blue;
+}
+
+
+.divider
+{
+	position:relative;
+	top: 0px;
+	height: 200px;	
+	width: 100%;
+}
+
+.content
+{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 300px;
+	border: 2px solid blue;
+}
+/* END TESTING COMPONENTS */
+
+/*---------------------------------------------------------------------------------------------------------*/

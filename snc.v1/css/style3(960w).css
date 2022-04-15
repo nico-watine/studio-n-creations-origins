@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	width: 100%;
+	background-color: #cccccc;
+	font-family: 'ubuntulight';
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+@font-face {
+    
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#wrapper
+{
+	position:relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+	background-color: #cccccc;
+}
+
+.intro_body
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 960px;
+	height: 640px;
+	background-color: white;
+}
+
+#header_graphic
+{
+	background: url(../img/Snowboard-Cropped.png);
+	position: absolute;
+	background-size: cover !important;
+	overflow: hidden;
+	top: 0px;
+	left: 80px;
+	height: 330px;
+	width: 880px;
+	padding: 0;
+}
+
+#logo_main
+{
+	width: 327px;
+	height: 300px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+.menu_container
+{
+	position: relative;
+	left: 80px;
+	top: 330px;
+	width: 878px;
+	height: 145px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#what-we-do
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#portfolio
+{
+	position: absolute;
+	top: 0px;
+	left:176px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#who-i-am
+{
+	position: absolute;
+	top: 0px;
+	left:352px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#testimonials
+{
+	position: absolute;
+	top: 0px;
+	left:528px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#contact
+{
+	position: absolute;
+	top: 0px;
+	left:704px;
+	width: 175px;
+	height: 145px;
+	border-left: 1px solid black;
+}
+
+#we-are-sn
+{
+	position:absolute;
+	top: 477px;
+	left: 80px;
+	width: 780px;
+	height: 72px;
+}
+
+#we-are-sn h1
+{
+	font-size: 60px;
+	color: black;
+	line-height: 0px;
+}
+
+#we-are-wd
+{
+	position:absolute;
+	top: 549px;
+	left: 80px;
+	height: 72px;
+	width: 600px;
+}
+
+#we-are-wd h1
+{
+	font-size: 60px;
+	color: black;
+	line-height: 0px;
+}
+
+#contact_box
+{
+	position: absolute;
+	top: 560px;
+	left: 880px;
+	height: 65px;
+	width: 65px;
+	border: 1px solid black;
+	font-size: 15px;
+	text-align:center;
+}

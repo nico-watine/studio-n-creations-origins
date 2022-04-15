@@ -1,0 +1,35 @@
+// NORMALIZE.CSS
+@import "settings/_normalize.scss";
+
+// BOURBON-NEAT FILES
+@import "bourbon";
+@import "grid-settings";
+@import "neat";
+
+// STYLE COMPONENTS
+@import "components/_typography.scss";
+@import "components/_resets.scss";
+@import "components/_buttons.scss";
+@import "components/_utility-classes.scss";
+@import "boostrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "boostrap-sass/assets/stylesheets/bootstrap/_component-animations.scss";
+@import "boostrap-sass/assets/stylesheets/bootstrap/mixins/_nav-divider.scss";
+@import "boostrap-sass/assets/stylesheets/bootstrap/_navs.scss";
+@import "components/_extras.scss"; // IMPORT 'EXTRAS' PARTIALS AS NEEDED
+
+
+// STANDARD PAGE BLOCKS
+@import "blocks/_body.scss";
+@import "blocks/_header.scss";
+@import "blocks/_nav.scss"; 
+@import "blocks/_main.scss";
+@import "blocks/_footer.scss";
+
+// INDIVIDUAL PAGE STYLES
+@import "pages/index/_index.scss";
+@import "pages/wedding-details/_wedding-details.scss";
+@import "pages/proposal-story/_proposal-story.scss";
+
+
+// LASTLY IMPORT DEVELOPMENT STYLES, TO BE REMOVED UPON PRODUCTION
+// @import "settings/_development-styles.scss";

@@ -1,0 +1,37 @@
+@import "../settings/_settings.scss";
+
+button,
+.btn,
+a.btn {
+	border: 0;
+	border-radius: $btn-radius; //6px
+
+	background-color: $btn-bg; //#ccc
+
+	color: $btn-text; //#2d2d2d
+	cursor: pointer;
+
+	line-height: 1em;
+	text-decoration: none;
+
+	display: inline-block;
+	padding: .75em 1.5em;
+
+	&:hover {
+		background-color: $btn-bg-hover; //#eee
+		color: $btn-text-hover; //#000
+	}
+}
+
+.btn-small {
+	@extend .btn;
+
+	font-size: $btn-small-font;
+}
+
+.btn-large {
+	@extend .btn;
+
+	font-size: $btn-large-font;
+	font-weight: bold;
+}

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) 
+{ 
+.slogan
+{
+	top: 20%;
+	width: 250px;
+	left: 2%;
+	height: 130px;
+	font-size: 20px;
+}
+
+.contact
+{
+	top: 20%;
+	height: 130px;
+	width: 300px;
+	left: 270px;
+	font-size: 20px;
+}
+
+.mobile_hidden
+{
+	visibility:hidden;
+}
+
+.mobile_logo
+{
+	visibility:visible;
+	position:absolute;
+	top: -13%;
+	left: 10%;
+}
+
+.logo
+{
+	visibility: hidden;
+}
+
+.header_mobile
+{
+	background: url(../img/Snowboard-Cropped.png);
+	background-size: cover !important;
+	padding: 0;
+	overflow: hidden;
+	height: 30%;
+	width: 100%;
+	display: table;
+	color: #010101;
+	visibility:visible;
+}
+
+.home-parallax 
+{
+	visibility:hidden;
+}
+
+.content-top
+{
+	position:absolute;
+	top: 20%;
+	width: 100%;
+	left: 0px; 
+	padding: 0;
+	margin: 0;
+}
+
+.content-intro
+{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	visibility:visible;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait)
+{ 
+
+.slogan
+{
+	top: 20%;
+	width: 300px;
+	left: 6%;
+	height: 130px;
+	font-size: 23px;
+}
+
+.contact
+{
+	top: 55%;
+	height: 130px;
+	width: 300px;
+	left: 6%;
+	font-size: 20px;
+}
+
+.mobile_hidden
+{
+	visibility:hidden;
+}
+
+.mobile_logo
+{
+	visibility:visible;
+	position:absolute;
+	top: -13%;
+	left: 10%;
+}
+
+.logo
+{
+	visibility: hidden;
+}
+
+.header_mobile
+{
+	background: url(../img/Snowboard-Cropped.png);
+	background-size: cover !important;
+	padding: 0;
+	overflow: hidden;
+	height: 30%;
+	width: 100%;
+	display: table;
+	color: #010101;
+	visibility:visible;
+}
+
+.home-parallax 
+{
+	visibility:hidden;
+}
+
+.content-top
+{
+	position:absolute;
+	top: 20%;
+	width: 100%;
+	left: 0px; 
+	padding: 0;
+	margin: 0;
+}
+
+.content-intro
+{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	visibility:visible;
+	border-right: 2px solid black;
+}
+}
+
+@media only screen
+and (max-width:961px) {
+	.home-parallax 
+{
+	background: url(../img/Snowboard-Cropped.png);
+	background-size: cover !important;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	height: 80%;
+	width: 100%;
+	display: table;
+	color: #010101;
+}
+
+.logo
+{
+	position: relative;
+	top: -150px;
+	left: 50px;
+	height: 400px;
+	width: 300px;
+	background: url(../img/logo-web.gif) center no-repeat;
+	background-size: 300px 300px;
+	padding: 0;
+	overflow: hidden;
+	color: #010101;
+}
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+.content-top
+{
+	position:absolute;
+	top: 50%;
+	width: 100%;
+	height: 0; 
+	left: 0px; 
+	margin-left: 0px; 
+	margin-right: 0px;
+	border-top: none;
+}
+
+}
+

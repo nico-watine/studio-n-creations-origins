@@ -1,0 +1,17 @@
+@import "../settings/_settings.scss";
+
+.row {
+	@include row;
+}
+
+.side-padding {
+	padding: 0 1em;
+}
+
+.padding-vertical {
+	padding: 1em 0;
+}
+
+.img-container {
+	text-align: center;
+}

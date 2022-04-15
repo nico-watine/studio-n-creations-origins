@@ -1,0 +1,265 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#tech-setup main {
+  margin-top: 5em; }
+#tech-setup .intro-box {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 3.75em;
+  border-radius: 0.3125em;
+  padding: 2.5rem 1.875rem 1.25rem;
+  float: left;
+  display: block;
+  margin-right: 1.75788%;
+  width: 87.28027%;
+  margin-left: 6.35987%; }
+  #tech-setup .intro-box:last-child {
+    margin-right: 0; }
+  #tech-setup .intro-box p {
+    margin-bottom: 1.875rem; }
+
+h3.form-title {
+  margin-bottom: 1.875em; }
+
+form#tech-form {
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto; }
+  form#tech-form::after {
+    clear: both;
+    content: "";
+    display: table; }
+  form#tech-form label {
+    display: inline-block; }
+    form#tech-form label span {
+      display: inline-block; }
+  form#tech-form img {
+    margin-bottom: 1em;
+    max-width: 150px; }
+
+label.question {
+  font-size: 1.3125rem; }
+
+.form-row {
+  margin-bottom: 1.875em; }
+
+.input-container {
+  margin-top: 1.375rem; }
+
+#name .input-container {
+  float: left;
+  display: block;
+  margin-right: 1.75788%;
+  width: 61.8408%;
+  height: 60px;
+  margin-left: 19.0796%; }
+  #name .input-container:last-child {
+    margin-right: 0; }
+
+#computer-os .input-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  height: 240px;
+  text-align: center; }
+  #computer-os .input-container:last-child {
+    margin-right: 0; }
+#computer-os .input {
+  vertical-align: bottom; }
+
+#windows,
+#macintosh,
+#browsers {
+  padding: 0 1.25rem; }
+  #windows .input-container,
+  #macintosh .input-container,
+  #browsers .input-container {
+    float: left;
+    display: block;
+    margin-right: 2.01406%;
+    width: 12.55938%;
+    height: 240px;
+    text-align: center; }
+    #windows .input-container:last-child,
+    #macintosh .input-container:last-child,
+    #browsers .input-container:last-child {
+      margin-right: 0; }
+    #windows .input-container:nth-child(7n),
+    #macintosh .input-container:nth-child(7n),
+    #browsers .input-container:nth-child(7n) {
+      margin-right: 0; }
+    #windows .input-container:nth-child(7n+1),
+    #macintosh .input-container:nth-child(7n+1),
+    #browsers .input-container:nth-child(7n+1) {
+      clear: left; }
+  #windows .input,
+  #macintosh .input,
+  #browsers .input {
+    vertical-align: bottom; }
+
+#linux .row-content {
+  float: left;
+  display: block;
+  margin-right: 1.75788%;
+  width: 74.56053%;
+  margin-left: 12.71973%; }
+  #linux .row-content:last-child {
+    margin-right: 0; }
+#linux .input-container {
+  float: left;
+  display: block;
+  margin-right: 3.16844%;
+  width: 31.22104%;
+  height: 240px;
+  text-align: center; }
+  #linux .input-container:last-child {
+    margin-right: 0; }
+#linux .input {
+  vertical-align: bottom; }
+
+#thats-all {
+  text-align: center;
+  background: #fff;
+  border-radius: 0.3125em;
+  padding: 1.25em 0.625em 1.875em;
+  max-width: 25em;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+  margin: 1.875em auto 2.5em; }
+  #thats-all h3 {
+    margin-bottom: 1.25rem; }
+
+@media screen and (max-width: 62.5em) {
+  #name .input-container {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 74.56053%;
+    margin-left: 12.71973%; }
+    #name .input-container:last-child {
+      margin-right: 0; }
+
+  #windows .input-container,
+  #macintosh .input-container,
+  #browsers .input-container {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%;
+    height: 240px;
+    text-align: center; }
+    #windows .input-container:nth-child(7n),
+    #macintosh .input-container:nth-child(7n),
+    #browsers .input-container:nth-child(7n) {
+      margin-right: 2.35765%; }
+    #windows .input-container:nth-child(7n+1),
+    #macintosh .input-container:nth-child(7n+1),
+    #browsers .input-container:nth-child(7n+1) {
+      clear: none; }
+    #windows .input-container:last-child,
+    #macintosh .input-container:last-child,
+    #browsers .input-container:last-child {
+      margin-right: 0; }
+    #windows .input-container:nth-child(3n),
+    #macintosh .input-container:nth-child(3n),
+    #browsers .input-container:nth-child(3n) {
+      margin-right: 0; }
+    #windows .input-container:nth-child(3n+1),
+    #macintosh .input-container:nth-child(3n+1),
+    #browsers .input-container:nth-child(3n+1) {
+      clear: left; }
+  #windows .input,
+  #macintosh .input,
+  #browsers .input {
+    vertical-align: bottom; }
+
+  #linux .row-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-left: 0%; }
+    #linux .row-content:last-child {
+      margin-right: 0; } }
+@media screen and (max-width: 38.125em) {
+  .intro-box {
+    padding: 1.25rem 1.5625rem 0rem; }
+
+  #computer-os {
+    padding: 0 1.25em; }
+    #computer-os .input-container {
+      float: left;
+      display: block;
+      margin-right: 10.1484%;
+      width: 26.56773%; }
+      #computer-os .input-container:last-child {
+        margin-right: 0; }
+
+  #windows .input-container,
+  #macintosh .input-container,
+  #browsers .input-container {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%;
+    height: 240px;
+    text-align: center; }
+    #windows .input-container:nth-child(3n),
+    #macintosh .input-container:nth-child(3n),
+    #browsers .input-container:nth-child(3n) {
+      margin-right: 3.57866%; }
+    #windows .input-container:nth-child(3n+1),
+    #macintosh .input-container:nth-child(3n+1),
+    #browsers .input-container:nth-child(3n+1) {
+      clear: none; }
+    #windows .input-container:last-child,
+    #macintosh .input-container:last-child,
+    #browsers .input-container:last-child {
+      margin-right: 0; }
+    #windows .input-container:nth-child(2n),
+    #macintosh .input-container:nth-child(2n),
+    #browsers .input-container:nth-child(2n) {
+      margin-right: 0; }
+    #windows .input-container:nth-child(2n+1),
+    #macintosh .input-container:nth-child(2n+1),
+    #browsers .input-container:nth-child(2n+1) {
+      clear: left; }
+
+  #computer-os .input,
+  #windows .input,
+  #macintosh .input,
+  #browsers .input {
+    vertical-align: top; }
+
+  #linux .input-container {
+    margin-top: 0; } }
+@media only screen and (max-width: 26.25em) {
+  #computer-os .input-container {
+    float: left;
+    display: block;
+    margin-right: 16.03631%;
+    width: 41.98184%;
+    height: 200px; }
+    #computer-os .input-container:last-child {
+      margin-right: 0; }
+    #computer-os .input-container:nth-child(2n) {
+      margin-right: 0; }
+    #computer-os .input-container:nth-child(2n+1) {
+      clear: left; } }
+@media screen and (max-width: 23.75em) {
+  #name .input-container {
+    float: left;
+    display: block;
+    margin-right: 2.01406%;
+    width: 85.42656%;
+    margin-left: 7.28672%; }
+    #name .input-container:last-child {
+      margin-right: 0; }
+
+  .intro-box {
+    padding: 0.625rem 0.9375rem; } }

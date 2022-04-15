@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^snc\.email$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.snc\.email$
+RewriteRule ^/?$ "http\:\/\/studioncreations\.com\/" [R=301,L]
+

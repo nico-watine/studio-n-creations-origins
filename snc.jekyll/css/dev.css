@@ -1,0 +1,135 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.project-banner#deck-on-fountainview {
+  background-image: url("/img/portfolio/deck-on-fountainview/banner/banner.jpg");
+  color: #fff;
+  border: 0 solid #5EBDDF;
+  border-width: .1875em 0;
+  overflow: hidden;
+}
+
+.project-banner#deck-on-fountainview a#website-link {
+  letter-spacing: .09375rem;
+  background-color: #5EBDDF;
+}
+
+.project-banner#deck-on-fountainview a#website-link:hover {
+  background-color: #fff;
+  color: #00AEDA;
+}
+
+.project-banner#deck-on-fountainview .project-summary {
+  text-align: right;
+  float: left;
+  display: block;
+  margin-right: 1.75788%;
+  width: 55.48093%;
+}
+
+.project-banner#deck-on-fountainview .project-summary:last-child {
+  margin-right: 0;
+}
+
+.project-banner#deck-on-fountainview .project-summary .logo-wrapper {
+  text-indent: -9999px;
+  text-align: left;
+  background: url("/img/portfolio/deck-on-fountainview/logo.png") no-repeat right top;
+  background-size: contain;
+  margin-bottom: .9375em;
+  height: 11.875em;
+}
+
+.project-banner#deck-on-fountainview .project-summary .logo-wrapper h1 {
+  line-height: 1;
+}
+
+.project-banner#deck-on-fountainview .project-summary .prose p {
+  font-size: 1.9375em;
+  margin-bottom: 1.25rem;
+}
+
+.project-banner#deck-on-fountainview .project-image {
+  float: left;
+  display: block;
+  margin-right: 1.75788%;
+  width: 42.76119%;
+  padding-left: 1.5625em;
+}
+
+.project-banner#deck-on-fountainview .project-image:last-child {
+  margin-right: 0;
+}
+
+.project-banner#deck-on-fountainview .project-image img {
+  max-width: 19.375em;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .project-banner#deck-on-fountainview a#website-link {
+    font-size: 1.25rem;
+    padding: .6875rem .625rem;
+  }
+  .project-banner#deck-on-fountainview .project-summary {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 55.48093%;
+  }
+  .project-banner#deck-on-fountainview .project-summary:last-child {
+    margin-right: 0;
+  }
+  .project-banner#deck-on-fountainview .project-image {
+    float: left;
+    display: block;
+    margin-right: 1.75788%;
+    width: 42.76119%;
+    padding-left: 0;
+    text-align: right;
+  }
+  .project-banner#deck-on-fountainview .project-image:last-child {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
+  .project-banner#deck-on-fountainview {
+    background-image: url("/img/portfolio/deck-on-fountainview/banner/banner@m.jpg");
+  }
+  .project-banner#deck-on-fountainview .project-summary, .project-banner#deck-on-fountainview .project-image {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .project-banner#deck-on-fountainview .project-summary {
+    margin-bottom: 1.875em;
+  }
+  .project-banner#deck-on-fountainview .project-summary .logo-wrapper {
+    text-align: center;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .project-banner#deck-on-fountainview a#website-link {
+    font-size: .875rem;
+  }
+  .project-banner#deck-on-fountainview .project-summary .prose p {
+    font-size: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 23.75em) {
+  .project-banner#deck-on-fountainview a#website-link {
+    margin-left: -.4375rem;
+    font-size: 1.0625rem;
+  }
+}
