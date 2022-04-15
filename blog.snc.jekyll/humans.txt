@@ -1,0 +1,51 @@
+Hello savvy Internet wanderer!
+
+This is the blog of Studio N Creations
+
+It keeps up with all the company’s latest happenings
+
+It is run by Nico Watine - the one man band behind Studio N Creations
+
+
+================
+
+Need a website? :: contact@studioncreations.com
+Get in touch with Nico :: nico.w@tine.rocks
+
+================
+
+/* SITE COLOPHON */
+Standards: HTML5, CSS3
+Components: Normalize.css
+Software: Sublime Text, CodeKit
+
+
+What is this file??
+humanstxt.org
+
+================
+
+
+                    ++++++++          
+                 ++++++++++++         
+                +++++++++++++         
+                   .+++++++++         
+                    +++++++++         
+                    +++++++++         
+        ,+++++      +++++++++         
+     +++++++++++    +++++++++         
+    +++++++++++++   +++++++++         
+     ++++++++++++++ +++++++++         
+     ++++++++++++++++++++++++         
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+    ++++++++++++++++++++++++++        
+    +++++++++  +++++++++++++++        
+   +++++++++     +++++++++++++,       
+   ++++++         +++++++++++++       
+     +              +++++++++.        
+                     ++++++           
+                      .+~
+
+   WWW . STUDIO N CREATIONS . COM
