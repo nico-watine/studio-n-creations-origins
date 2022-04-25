@@ -32,12 +32,8 @@
 			</div> 
 			<nav class="nav-collapse">
 				<ul>
-					<li><a href="/">Home</a></li>
-					<li class="active"><a href="#">Services</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/about-us.html">About Us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-					<li><a href="http://blog.studioncreations.com">Blog</a></li>
+					<li><a href="http://client.snc.jekyll/tech-setup/">Tech Setup</a></li>
+					<li><a href="http://blog.snc.jekyll/">Blog</a></li>
 				</ul>
 			</nav>
 		</div>
